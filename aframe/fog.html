@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My first VR site</title>
+    <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene fog="type: linear; color: #fff; near: 0.5; far: 10;">
+      <a-camera position="0 0 0"></a-camera>
+      <a-light color="red" position="-1 1 1"></a-light>
+      <a-light color="blue" position="1 2 1"></a-light>
+      <a-sphere color="#fff" position="0 0 -2" radius="0.5"></a-sphere>
+      <a-sphere color="#fff" position="1 0 -4" radius="0.5"></a-sphere>
+      <a-sphere color="#fff" position="2 0 -6" radius="0.5"></a-sphere>
+      <a-sphere color="#fff" position="3 0 -8" radius="0.5"></a-sphere>
+      <a-sphere color="#fff" position="4 0 -10" radius="0.5"></a-sphere>
+      <a-sphere color="#fff" position="-4 0 -10" radius="7"></a-sphere>
+    </a-scene>
+  </body>
+</html>
